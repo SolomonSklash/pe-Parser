@@ -2,11 +2,11 @@
 A lightweight utility for parsing PE file formats (EXE, DLL, SYS)
 
 
-### Overview
+### Usage
 
 ```
-        peParser:       A utility for parsing PE files formats and structures
-        Example:        peParser.exe /OVERVIEW <file.exe>
+peParser:       A utility for parsing PE files formats and structures
+Example:        peParser.exe /OVERVIEW <file.exe>
 
         Usage           Description
         -----           -----------------------------------------------------------------
@@ -16,3 +16,13 @@ A lightweight utility for parsing PE file formats (EXE, DLL, SYS)
         /EXPORTS        List EAT information, export related functions
         /SECTIONS       List section related information
 ```
+
+### /OVERVIEW
+
+### /HEADERS
+
+### /IMPORTS
+
+### /EXPORTS
+
+### /SECTIONS
