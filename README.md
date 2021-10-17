@@ -19,9 +19,11 @@ Example:        peParser.exe /OVERVIEW <file.exe>
 
 ### /OVERVIEW
 
+Get a quick overview of the provided PE file, hashes for the file, sections, and other file information
+
 ### /HEADERS
 
-Parse PE file structures relating to headers (IMAGE_DOS_HEADER, IMAGE_NT_HEADERS, IMAGE_FILE_HEADER, IMAGE_OPTIONAL_HEADER, etc)
+Parse PE file structures relating to headers
 
 ```
 c:\peParser>peParser.exe /HEADERS calc.exe
@@ -56,6 +58,12 @@ Value           Member          Description
 
 ### /IMPORTS
 
+Get a listing of API function imports and their associated DLL library
+
 ### /EXPORTS
 
+Get a listing of exported API functions
+
 ### /SECTIONS
+
+Get information about the PE's sections
