@@ -1,5 +1,5 @@
 # peParser
-A lightweight utility for parsing PE file formats (EXE, DLL, SYS)
+A lightweight utility for parsing PE file formats (EXE, DLL, SYS). Windows Portable Executable (PE) files includes a variety of parsable data structures. This utility takes a PE file as a CLI argument and parses the various structures and aspects of file information.
 
 
 ### Usage
@@ -20,6 +20,8 @@ Example:        peParser.exe /OVERVIEW <file.exe>
 ### /OVERVIEW
 
 ### /HEADERS
+
+Parse PE file structures relating to headers (IMAGE_DOS_HEADER, IMAGE_NT_HEADERS, IMAGE_FILE_HEADER, IMAGE_OPTIONAL_HEADER, etc)
 
 ```
 c:\peParser>peParser.exe /HEADERS calc.exe
