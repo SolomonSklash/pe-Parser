@@ -21,6 +21,37 @@ Example:        peParser.exe /OVERVIEW <file.exe>
 
 ### /HEADERS
 
+```
+c:\peParser>peParser.exe /HEADERS calc.exe
+
+----------------- Dos Header -----------------
+
+Value           Member          Description
+
+0x5a4d          e_magic         Magic Bytes
+0x90            e_cblp          Bytes on last page of file
+0x3             e_cp            Pages in file
+0x0             e_crlc          Relocations
+0x4             e_cparhdr       Size of header in paragraphsn
+0x0             e_minalloc      Minimum extra paragraphs needed
+0xffff          e_maxalloc      Maximum extra paragraphs needed
+0x0             e_ss            Initial (relative) SS value
+0xb8            e_sp            Initial SP value
+0x0             e_csum          Checksum
+0x0             e_ip            Initial IP value
+0x0             e_cs            Initial (relative) CS value
+0x40            e_lfarlc        File address of relocation table
+0x0             e_ovno          Overlay number
+0xbef004        e_lfanew        File address of new exe header
+
+----------------- NT Headers -----------------
+
+Value           Member          Description
+
+0x4550          Signature       e_res2
+...
+```
+
 ### /IMPORTS
 
 ### /EXPORTS
