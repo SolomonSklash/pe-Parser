@@ -111,15 +111,5 @@ SECTION HEADER #2
                 Relocations Number: 0x0
                 Line Numbers: 0x0
                 Characteristics: 0xc0000040
-SECTION HEADER #3
-        .pdata
-                Virtual Size: 0xf0
-                Virtual Address: 0x4000
-                Raw Size: 0x200
-                Raw Address: 0x2000
-                Reloc Address: 0x0
-                Relocations Number: 0x0
-                Line Numbers: 0x0
-                Characteristics: 0x40000040
-...cut
+...
 ```
