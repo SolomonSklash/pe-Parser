@@ -1,7 +1,7 @@
 # peParser
 A lightweight utility for parsing PE file formats (EXE, DLL, SYS). Windows Portable Executable (PE) files includes a variety of parsable data structures. This utility takes a PE file as a CLI argument and parses the various structures and aspects of file information.
 
-To learn more about the Windows PE file format I recommend the `Life of Binaries` training by OpenSecurityTraining [here](https://www.youtube.com/watch?v=AeclzNQ0MxI&list=PLC6652F7766DEE46D)
+To learn more about the Windows PE file format I recommend the `Life of Binaries` training by OpenSecurityTraining [here](https://www.youtube.com/watch?v=ls8I__h1IYE&list=PLUFkSN0XLZ-n_Na6jwqopTt1Ki57vMIc3)
 
 Read my blog post that discusses the PE format and how to parse it [here](https://fullpwnops.com/pe-file-parsing-manual-injection/)
 
