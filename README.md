@@ -3,6 +3,8 @@ A lightweight utility for parsing PE file formats (EXE, DLL, SYS). Windows Porta
 
 To learn more about the Windows PE file format I recommend the `Life of Binaries` training by OpenSecurityTraining [here](https://www.youtube.com/watch?v=AeclzNQ0MxI&list=PLC6652F7766DEE46D)
 
+Read my blog post that dicusses the PE format and how to parse it [here](https://fullpwnops.com/pe-file-parsing-manual-injection/)
+
 ### Usage
 
 ```
