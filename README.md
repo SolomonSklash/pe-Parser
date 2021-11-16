@@ -21,6 +21,16 @@ Example:        peParser.exe /OVERVIEW <file.exe>
 
 Get a quick overview of the provided PE file, hashes for the file, sections, and other file information
 
+```
+c:\peParser>peParser.exe /OVERVIEW calc.exe
+
+----------------- File Information -----------------
+
+File name:       calc.exe
+File size:       27648 Kb
+Creation Date:   2021-10-15 17:36:23
+```
+
 ### /HEADERS
 
 Parse PE file structures relating to headers
@@ -67,3 +77,49 @@ Get a listing of exported API functions
 ### /SECTIONS
 
 Get information about the PE's sections
+
+```
+----------------- Section Headers -----------------
+
+SECTION HEADER #0
+        .text
+                Virtual Size: 0xbd0
+                Virtual Address: 0x1000
+                Raw Size: 0xc00
+                Raw Address: 0x400
+                Reloc Address: 0x0
+                Relocations Number: 0x0
+                Line Numbers: 0x0
+                Characteristics: 0x60000020
+SECTION HEADER #1
+        .rdata
+                Virtual Size: 0xc76
+                Virtual Address: 0x2000
+                Raw Size: 0xe00
+                Raw Address: 0x1000
+                Reloc Address: 0x0
+                Relocations Number: 0x0
+                Line Numbers: 0x0
+                Characteristics: 0x40000040
+SECTION HEADER #2
+        .data
+                Virtual Size: 0x6b8
+                Virtual Address: 0x3000
+                Raw Size: 0x200
+                Raw Address: 0x1e00
+                Reloc Address: 0x0
+                Relocations Number: 0x0
+                Line Numbers: 0x0
+                Characteristics: 0xc0000040
+SECTION HEADER #3
+        .pdata
+                Virtual Size: 0xf0
+                Virtual Address: 0x4000
+                Raw Size: 0x200
+                Raw Address: 0x2000
+                Reloc Address: 0x0
+                Relocations Number: 0x0
+                Line Numbers: 0x0
+                Characteristics: 0x40000040
+...cut
+```
